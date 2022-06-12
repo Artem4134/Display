@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+.header {
+    width: 1910px;
+    height: 200px;
+    background-color: #212121;
+    border: 1px solid black;
+}
+.nav {
+    text-align: center;
+}
+.nav-items {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 25px 0 0;
+}
+.text6 {
+    color: #FFFFFF;
+    position: absolute;
+    height: 24px;
+    right: 280px;
+    top: 48px;
+    bottom: 0;
+    display: flex;
+    color: rgba(255, 255, 255, 0.4000000059604645);
+    font-size: 14px;
+    font-weight: normal;
+}
+.telephone {
+    color: #FFFFFF;
+    position: absolute;
+    height: 24px;
+    right: 280px;
+    top: 78px;
+    bottom: 0;
+    display: flex;
+    color: rgba(255, 255, 255, 0.699999988079071);
+    font-size: 18px;
+    font-weight: 900;
+}
+.block {
+    position: absolute;
+    border-radius: 10px;
+    top: 53px;
+    right: 86px;
+    width: 150px;
+    height: 40px;
+    background-color: #5552E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block:hover {
+    background: blue;
+    transition: 0.8s;
+}
+.request {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.movie {
+    color: black;
+    font-size: 47px;
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+.best {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0 90px 0;
+}
+.image-aline {
+    text-align: center;
+    border-radius: 30px;
+}
+.image {
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.film1 {
+    border-width: medium;
+    display: inline-block;
+    text-align: center;
+    margin: 0 10px;
+    overflow: auto;
+
+}
+.prem {
+    width: 1920px;
+    height: 620px;
+    background-image: url(image/1234.png);
+    border: 1px solid white;
+    margin-top: 60px;
+}
+.premiere {
+    margin: 190px 0 0 0;
+    text-align: center;
+    color: white;
+    font-family: "Radio+Canada";
+    font-size: 64px;
+    font-weight: 900;
+}
+.about {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Radio+Canada";
+
+}
+.time {
+    text-align: center;
+    margin: -267px 0;
+    color: #FFFFFF;
+    font-family: "Radio+Canada";
+    font-size: 24px;
+    font-weight: normal;
+
+}
+.block_p1 {
+    position: absolute;
+    right: 890px;
+    text-align: center;
+    top: 1505px;
+    background-color: #5552E8;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.block_p1:hover {
+    background: blue;
+    transition: 0.5s;
+}
+.company {
+    width: 1910px;
+    height: 450px;
+    border: 1px solid white;
+}
+.Company_name {
+    color: blue;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin: 70px 0 20px 0;
+}
+.name {
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 0;
+}
+.information {
+    color: rgba(0, 0, 0, .7);
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+.button {
+    position: absolute;
+    padding: 30px 15px;
+    text-decoration: none;
+    right: 885px;
+    top: 1891px;
+    color: blue;
+    font-size: 18px;
+    overflow: hidden;
+    font-weight: normal;
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.button__line {
+    position: absolute;
+    display: block;
+}
+.button__line--top {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #2196f3);
+}
+.button:hover .button__line--top {
+    left: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.button__line--bottom {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #2196f3);
+}
+.button:hover .button__line--bottom {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+.button__line--left {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(0deg, transparent, #2196f3);
+}
+.button:hover .button__line--left {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+.button__line--right {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #2196f3);
+}
+.button:hover .button__line--right {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0s;
+}
+.button:hover {
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    background-color: #2196f3;
+    color: #333;
+    transition-delay: 1s;
+}
+.Confidence {
+    width: 100%;
+    height: 550px;
+    border: 1px solid white;
+}
+.trust {
+    color: black;
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.doverifyl {
+    color: rgba(0, 0, 0, .7);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.bodd {
+    height: 15%;
+    width: 50%;
+    border: 1px solid white;
+}
+.container {
+    width: 80%;
+    border: 1px solid white;
+    margin: 20px auto;
+}
+.carousel {
+    right: -444px;
+    border: 2px solid #416be4;
+    height: 250px;
+    top: 100px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.slider {
+    display: flex;
+    height: 100%;
+    width: 400%;
+    transition: 0.8s;
+    border: 1px solid white;
+    margin-left: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.slider section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    border: 1px solid white;
+}
+.left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.arrow i {
+    font-size: 70px;
+    -webkit-user-select: none;
+    color: #416be4;
+}
+.left {
+    left: 10px;
+}
+.right {
+    right: 10px;
+}
+.control ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+}
+.control ul li {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+.control ul li.selected {
+    background: transparent;
+}
+.control {
+    margin: -6px;
+    font-size: 20px;
+    height: 80px;
+    border: 1px solid white;
+}
+.contact {
+    width: 1910px;
+    height: 420px;
+    background-color: #6610f2;
+    border: 1px solid white;
+    margin: 123px 0 0 0;
+}
+.contacts {
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 120px 0 0 40em;
+}
+.numbers {
+    color: rgba(255, 255, 255, .7);
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 20px 0 0 59.4em;
+}
+.email {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0 0 40px 59.4em;
+}
+.location {
+    color: rgba(255, 255, 255, .7);
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin: 0 0 104px 59.4em;
+}
+.yandex {
+    border: 1px solid white;
+    margin: -422px 0 0 0;
+}
+.reviews {
+    width: 1905px;
+    height: 800px;
+    border: 1px solid white;
+}
+.comment {
+    margin-top: 80px;
+    color: black;
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+}
+.recall {
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, .7);
+    text-align: center;
+
+}
+.reviews_1 {
+    border: 1px solid rgba(0, 0, 0, .1);
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    align-items: center;
+    margin: 40px 0 0 35em;
+}
+.commentary {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+}

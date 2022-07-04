@@ -4,15 +4,16 @@
     font-family: "Roboto";
 }
 .header {
-    width: 1910px;
+    width: 100%;
     height: 200px;
     background-color: #212121;
     border: 1px solid black;
 }
-.nav {
+.menu-content {
     text-align: center;
+    margin: 68px 0 0 120px;
 }
-.nav-items {
+.menu {
     color: #FFFFFF;
     font-size: 18px;
     text-decoration: none;
@@ -47,12 +48,8 @@
     border-radius: 10px;
     top: 53px;
     right: 86px;
-    width: 150px;
     height: 40px;
-    background-color: #5552E8;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 .block:hover {
     background: blue;
@@ -79,6 +76,7 @@
 .image-aline {
     text-align: center;
     border-radius: 30px;
+    margin-bottom: 45px;
 }
 .image {
     display: inline-block;
@@ -93,11 +91,10 @@
 
 }
 .prem {
-    width: 1920px;
     height: 620px;
     background-image: url(image/1234.png);
     border: 1px solid white;
-    margin-top: 60px;
+    margin: auto;
 }
 .premiere {
     margin: 190px 0 0 0;
@@ -125,25 +122,23 @@
 
 }
 .block_p1 {
-    position: absolute;
-    right: 890px;
-    text-align: center;
-    top: 1505px;
-    background-color: #5552E8;
     width: 150px;
     height: 60px;
     border-radius: 10px;
     font-size: 24px;
     font-weight: normal;
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
 .block_p1:hover {
     background: blue;
     transition: 0.5s;
 }
 .company {
-    width: 1910px;
     height: 450px;
     border: 1px solid white;
+    margin: auto;
 }
 .Company_name {
     color: blue;
@@ -167,80 +162,21 @@
     margin-top: 20px;
 }
 .button {
-    position: absolute;
     padding: 30px 15px;
     text-decoration: none;
-    right: 885px;
-    top: 1891px;
     color: blue;
     font-size: 18px;
-    overflow: hidden;
     font-weight: normal;
     letter-spacing: 2px;
-    transition: 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.button__line {
-    position: absolute;
-    display: block;
-}
-.button__line--top {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #2196f3);
-}
-.button:hover .button__line--top {
-    left: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-.button__line--bottom {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #2196f3);
-}
-.button:hover .button__line--bottom {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-.button__line--left {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(0deg, transparent, #2196f3);
-}
-.button:hover .button__line--left {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0s;
-}
-.button__line--right {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, #2196f3);
-}
-.button:hover .button__line--right {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0s;
-}
-.button:hover {
-    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
-    background-color: #2196f3;
-    color: #333;
-    transition-delay: 1s;
-}
+
 .Confidence {
-    width: 100%;
     height: 550px;
     border: 1px solid white;
+    margin-bottom: 125px;
 }
 .trust {
     color: black;
@@ -259,11 +195,18 @@
     height: 15%;
     width: 50%;
     border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
 .container {
     width: 80%;
     border: 1px solid white;
     margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .carousel {
     right: -444px;
@@ -282,7 +225,6 @@
     width: 400%;
     transition: 0.8s;
     border: 1px solid white;
-    margin-left: 30px;
     align-items: center;
     justify-content: space-around;
 }
@@ -344,7 +286,12 @@
     height: 420px;
     background-color: #6610f2;
     border: 1px solid white;
-    margin: 123px 0 0 0;
+    margin: auto;
+}
+.info{
+    margin: auto;
+    position: relative;
+
 }
 .contacts {
     color: white;
@@ -371,13 +318,13 @@
     margin: 0 0 104px 59.4em;
 }
 .yandex {
-    border: 1px solid white;
-    margin: -422px 0 0 0;
+    position: absolute;
+    margin: -120px 0 0 0;
 }
 .reviews {
-    width: 1905px;
     height: 800px;
     border: 1px solid white;
+    margin: auto;
 }
 .comment {
     margin-top: 80px;
@@ -393,13 +340,15 @@
     text-align: center;
 
 }
-.reviews_1 {
+.main-comment {
     border: 1px solid rgba(0, 0, 0, .1);
     width: 350px;
     height: 350px;
     border-radius: 25px;
     align-items: center;
-    margin: 40px 0 0 35em;
+    display: flex;
+    justify-content: center;
+    margin: 40px 25px 0 0;
 }
 .commentary {
     font-size: 26px;
